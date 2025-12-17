@@ -12,9 +12,9 @@ int main() {
 
     getline(cin, nombre);
 
-    nombre = "cliente";
+    //nombre = "cliente";
 
-    cout << "Mucho gusto, " << nombre << ". Gracias por contactar a "
+    cout << "Mucho gusto, " << "Cliente" << nombre << ". Gracias por contactar a "
          << empresa << "." << endl;
     cout << "En esta version ya puedes consultar pedidos e informacion real." << endl;
 

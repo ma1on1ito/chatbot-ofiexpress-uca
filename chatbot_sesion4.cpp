@@ -12,12 +12,12 @@ int main() {
     cout << "Como te llamas? ";
     getline(cin, nombre);
 
-    while (opcion != 3) {
+    while (opcion != 4) {
         cout << "\nHola " << nombre << ", selecciona una opcion:" << endl;
 
         string opciones[4] = {
             "1) Ver horario",
-            "2) Ver horario",
+            "2) Ver contacto",
             "3) Ver servicios principales",
             "4) Salir"
         };
@@ -34,14 +34,15 @@ int main() {
                 cout << "Bot: Horario de 9:00 a 18:00, lunes a viernes." << endl;
                 break;
             case 2:
-                cout << "Bot: Ofrecemos venta y reparto de articulos de oficina." << endl;
+                cout <<  "Bot: Tel: 55-1234-5678 | Correo: ventas@ofiexpress.mx"  << endl;
                 break;
             case 3:
-                cout << "Bot: Tel: 55-1234-5678 | Correo: ventas@ofiexpress.mx" << endl;
+                cout << "Bot: Ofrecemos venta y reparto de articulos de oficina." << endl;
                 break;
             case 4:
                 cout << "Bot: Gracias por tu visita, " << nombre << ". Hasta luego." << endl;
                 break;
+                break;//doble condición.
             default:
                 cout << "Bot: Opcion no valida." << endl;
         }

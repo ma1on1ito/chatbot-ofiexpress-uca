@@ -1,12 +1,13 @@
 # Chatbot corrección
  ## Corrección de código, 
-## chatbot_session1.cpp
+## chatbot_sesion1.cpp
  Error vatiable Cliente cliente.
  línea de salida agrega "CLIENTE" 
- ## chatbot_session3.cpp
+ ## chatbot_sesion3.cpp
  Se declara el ciclo if cuando finaliza la anidación de las opciones.
-## chatbot_session4.cpp
+## chatbot_sesion4.cpp
 While tiene un contador para el arreglo string donde se almacenan las variables que se muestran en el menú. Si cambia el contador a 4 se pueden leer las opciones. Después de la lectura del ciclo FOR como matriz del arreglo para buscar lo que escribimos, en el arreglo switch cada case retorna al menú con un SALTO ,si BREAK " se repite va a causar que el menú termine en falso.  
+
 
 # Chatbot OfiExpress – Proyecto para VS Code
 
